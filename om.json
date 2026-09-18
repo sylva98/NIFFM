@@ -1,0 +1,62 @@
+
+[
+  {
+    "id": "usa",
+    "name": "KEXP",
+    "url": "https://kexp.streamguys1.com/kexp160.aac",
+    "notes": "西雅图，独立摇滚",
+    "category": "欧美",
+    "cover": ""
+  },
+   {
+    "id": "Hits",
+    "name": "Radio Paradise",
+    "url": "http://stream.radioparadise.com/flac",
+    "notes": "欧美流行歌曲",
+    "category": "欧美",
+    "cover": ""
+  },
+   {
+    "id": "SomaFM",
+    "name": "RSomaFM PopTron",
+    "url": "https://ice5.somafm.com/poptron-128-aac",
+    "notes": "欧美流行",
+    "category": "欧美",
+    "cover": ""
+    },
+   {
+    "id": "Paradise",
+    "name": "ChartHits.FM",
+    "url": "https://charthits-2012-high.rautemusik.fm",
+    "notes": "欧美流行精选",
+    "category": "欧美",
+    "cover": ""
+  },
+  {
+    "id": "NRJ",
+    "name": "BBC Radio1",
+    "url": "http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8",
+    "notes": "BBC Radio",
+    "category": "欧美",
+    "cover": ""
+  },
+  {
+    "id": "love",
+    "name": "90s Lovesongs",
+    "url": "http://streams.90s90s.de/love/aac-64/",
+    "notes": "90s Lovesongs",
+    "category": "欧美",
+    "cover": ""
+  },
+  {
+    "id": "Pop",
+    "name": "90s Pop",
+    "url": "http://streams.90s90s.de/pop/aac-64/",
+    "notes": "90s Pop",
+    "category": "欧美",
+    "cover": ""
+  }
+  
+
+
+]
