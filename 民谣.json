@@ -1,0 +1,802 @@
+[
+  {
+    "name": "无理诗人",
+    "singer": "ZingWay ",
+    "album": "如果你也想",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/17.ZingWay - 无理诗人.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/17-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e6%97%a0%e7%90%86%e8%af%97%e4%ba%ba-zingway.html"
+  },
+  {
+    "name": "I AM The Sweetest Of Devils",
+    "singer": "Ordo Rosarius Equilibrio",
+    "album": "4play",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032823522179808.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/4play-300x277.jpg",
+    "url": "https://www.edzbe.com/song/i-am-the-sweetest-of-devils-ordo-rosarius-equilibrio.html"
+  },
+  {
+    "name": "旅途",
+    "singer": "朴树",
+    "album": "文艺复兴青年",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol02-08.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/8.文艺复兴青年.png",
+    "url": "https://www.edzbe.com/song/%e6%97%85%e9%80%94-%e6%9c%b4%e6%a0%91.html"
+  },
+  {
+    "name": "像青春一样怒放",
+    "singer": "水木年华",
+    "album": "怒放之青春再见 插曲",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014062007134418234.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/06/xiangqingchun.jpg",
+    "url": "https://www.edzbe.com/song/xiangqingchunyiyangnufang.html"
+  },
+  {
+    "name": "Evit Ar Barz",
+    "singer": "Dan Ar Braz",
+    "album": "Celtiques Best of",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014102219542109151.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/14.Celtiques-Best-of.jpg",
+    "url": "https://www.edzbe.com/song/evit-ar-barz-dan-ar-braz.html"
+  },
+  {
+    "name": "Elite",
+    "singer": "Belborn",
+    "album": "Drei Three",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201404141832370478.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/04/907097092968006.png",
+    "url": "https://www.edzbe.com/song/elite-belborn.html"
+  },
+  {
+    "name": "小宝贝",
+    "singer": "夏天播放",
+    "album": "私奔丽江",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-20.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/20.私奔丽江.jpg",
+    "url": "https://www.edzbe.com/song/%e5%b0%8f%e5%ae%9d%e8%b4%9d-%e5%a4%8f%e5%a4%a9%e6%92%ad%e6%94%be.html"
+  },
+  {
+    "name": "我可是你手中那一朵鲜花",
+    "singer": "好妹妹乐队",
+    "album": "说时依旧",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014120601065192781.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/12/18103258931411611401.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e5%8f%af%e6%98%af%e4%bd%a0%e6%89%8b%e4%b8%ad%e9%82%a3%e4%b8%80%e6%9c%b5%e9%b2%9c%e8%8a%b1-%e5%a5%bd%e5%a6%b9%e5%a6%b9%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "无法长大",
+    "singer": "赵雷",
+    "album": "无法长大",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528231126.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/17.无法长大.jpg",
+    "url": "https://www.edzbe.com/song/%e6%97%a0%e6%b3%95%e9%95%bf%e5%a4%a7-%e8%b5%b5%e9%9b%b7.html"
+  },
+  {
+    "name": "阳光中的向日葵 ",
+    "singer": "马条",
+    "album": "你找错了地方",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2015080304150267391.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2015/08/4078461292552696.jpg",
+    "url": "https://www.edzbe.com/song/%e9%98%b3%e5%85%89%e4%b8%ad%e7%9a%84%e5%90%91%e6%97%a5%e8%91%b5-%e9%a9%ac%e6%9d%a1.html"
+  },
+  {
+    "name": "Once",
+    "singer": "Sophie Zelmani",
+    "album": "Sing and Dance",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014033102490664558.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/05.Sing-and-Dance.jpg",
+    "url": "https://www.edzbe.com/song/once-sophie-zelmani.html"
+  },
+  {
+    "name": "Edamame 毛豆之歌",
+    "singer": "林生祥",
+    "album": "Edamame 毛豆之歌",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6808.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/08-Edamame-毛豆之歌.png",
+    "url": "https://www.edzbe.com/song/edamame-%e6%af%9b%e8%b1%86%e4%b9%8b%e6%ad%8c-%e6%9e%97%e7%94%9f%e7%a5%a5.html"
+  },
+  {
+    "name": "你笑着流出了泪",
+    "singer": "尹吾",
+    "album": "每个人的一生 都是一次远行",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2016032605281279465.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/9-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e4%bd%a0%e7%ac%91%e7%9d%80%e6%b5%81%e5%87%ba%e4%ba%86%e6%b3%aa-%e5%b0%b9%e5%90%be.html"
+  },
+  {
+    "name": "那年说的不分手",
+    "singer": "安图声乐队",
+    "album": "ANTU SOUND ROCK",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1773456510_15685460_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2019/05/7090640011409065028-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e9%82%a3%e5%b9%b4%e8%af%b4%e7%9a%84%e4%b8%8d%e5%88%86%e6%89%8b-%e5%ae%89%e5%9b%be%e5%a3%b0%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "醒着醉",
+    "singer": "马良",
+    "album": "醒着醉",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528225927.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/12.醒着醉.jpg",
+    "url": "https://www.edzbe.com/song/%e9%86%92%e7%9d%80%e9%86%89-%e9%a9%ac%e8%89%af.html"
+  },
+  {
+    "name": "Die Alte Norne",
+    "singer": "Falkenstein",
+    "album": "Kraftort",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014041418502548612.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/04/15.Kraftort.jpg",
+    "url": "https://www.edzbe.com/song/die-alte-norne-falkenstein.html"
+  },
+  {
+    "name": "天使有双翅膀",
+    "singer": "金属者/苍蝇",
+    "album": "金属者原创",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-30.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/28-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e5%a4%a9%e4%bd%bf%e6%9c%89%e5%8f%8c%e7%bf%85%e8%86%80-%e7%89%a7%e7%90%b4.html"
+  },
+  {
+    "name": "The Quality Of Silence",
+    "singer": "Corde Oblique",
+    "album": "The Stones Of Naples",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014102220030109986.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/18.The-Stones-Of-Naples.jpg",
+    "url": "https://www.edzbe.com/song/the-quality-of-silence-corde-oblique.html"
+  },
+  {
+    "name": "I Have No Fear",
+    "singer": "Seelenthron",
+    "album": "Wege Digipak",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014102219563685555.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/1753721046311940.png",
+    "url": "https://www.edzbe.com/song/i-have-no-fear-seelenthron.html"
+  },
+  {
+    "name": "Where at Night the Wood Grouse Plays",
+    "singer": "Empyrium",
+    "album": "Where at Night the Wood Grouse Plays",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014031301510982188.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/02/22.Where-at-Night-the-Wood-Grouse-Plays-300x300.jpg",
+    "url": "https://www.edzbe.com/song/where-at-night-the-wood-grouse-plays-empyrium.html"
+  },
+  {
+    "name": "私奔丽江",
+    "singer": "夏天播放",
+    "album": "所属专辑",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-27.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/20.私奔丽江.jpg",
+    "url": "https://www.edzbe.com/song/%e7%a7%81%e5%a5%94%e4%b8%bd%e6%b1%9f-%e5%a4%8f%e5%a4%a9%e6%92%ad%e6%94%be.html"
+  },
+  {
+    "name": "孤鸟的歌",
+    "singer": "马頔",
+    "album": "孤岛",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014071705572518644.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2015/08/13116882321422539101.jpg",
+    "url": "https://www.edzbe.com/song/%e5%ad%a4%e9%b8%9f%e7%9a%84%e6%ad%8c-%e9%a9%ac%e9%a0%94.html"
+  },
+  {
+    "name": "Let It Go",
+    "singer": "James Bay",
+    "album": "Chaos and the Calm",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226403.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/Chaos-and-the-Calm-300x300.jpg",
+    "url": "https://www.edzbe.com/song/let-it-go-james-bay.html"
+  },
+  {
+    "name": "赶在七月之前",
+    "singer": "侯康",
+    "album": "侯康的demo",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1774065413_0_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/11.侯康的demo.jpg",
+    "url": "https://www.edzbe.com/song/%e8%b5%b6%e5%9c%a8%e4%b8%83%e6%9c%88%e4%b9%8b%e5%89%8d-%e4%be%af%e5%ba%b7.html"
+  },
+  {
+    "name": "A Tale Of Real Love",
+    "singer": "Chamber",
+    "album": "Ghost Stories and Fairy-Tales",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2017030413155256692.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/03/ab67616d0000b-300x300.jpg",
+    "url": "https://www.edzbe.com/song/a-tale-of-real-love-chamber.html"
+  },
+  {
+    "name": "Diamonds & Rust",
+    "singer": "Joan Baez",
+    "album": "Diamonds & Rust",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226418.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/Diamonds-Rust-300x300.jpg",
+    "url": "https://www.edzbe.com/song/diamonds-rust-joan-baez.html"
+  },
+  {
+    "name": "另一种情感",
+    "singer": "张浅潜",
+    "album": "灵魂出窍",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201603260543463450.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/13-300x300.png",
+    "url": "https://www.edzbe.com/song/%e5%8f%a6%e4%b8%80%e7%a7%8d%e6%83%85%e6%84%9f-%e5%bc%a0%e6%b5%85%e6%bd%9c.html"
+  },
+  {
+    "name": "女儿情",
+    "singer": "万晓利",
+    "album": "你在红楼 我在西游",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-28.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/29.你在红楼-我在西游.jpg",
+    "url": "https://www.edzbe.com/song/%e5%a5%b3%e5%84%bf%e6%83%85-%e4%b8%87%e6%99%93%e5%88%a9.html"
+  },
+  {
+    "name": "那个喝醉的夜晚挡不住我们的步伐",
+    "singer": "纣王",
+    "album": "草堆民谣",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1772164263_0_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/13702479981515.jpg",
+    "url": "https://www.edzbe.com/song/%e9%82%a3%e4%b8%aa%e5%96%9d%e9%86%89%e7%9a%84%e5%a4%9c%e6%99%9a%e6%8c%a1%e4%b8%8d%e4%bd%8f%e6%88%91%e4%bb%ac%e7%9a%84%e6%ad%a5%e4%bc%90-%e7%ba%a3%e7%8e%8b.html"
+  },
+  {
+    "name": "旅行",
+    "singer": "许巍",
+    "album": "一时 Remix概念精选辑",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol02-04.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/4.一时-Remix概念精选辑.jpg",
+    "url": "https://www.edzbe.com/song/%e6%97%85%e8%a1%8c-%e8%ae%b8%e5%b7%8d.html"
+  },
+  {
+    "name": "以为",
+    "singer": "周三",
+    "album": "完美星开幕 第二期",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1773429468_15652785_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/01.完美星开幕-第二期.jpg",
+    "url": "https://www.edzbe.com/song/%e4%bb%a5%e4%b8%ba-%e5%91%a8%e4%b8%89.html"
+  },
+  {
+    "name": "我就乐意这样寂寞了",
+    "singer": "悬铃木",
+    "album": "花溪",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6601.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2018/10/01.花溪.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e5%b0%b1%e4%b9%90%e6%84%8f%e8%bf%99%e6%a0%b7%e5%af%82%e5%af%9e%e4%ba%86-%e6%82%ac%e9%93%83%e6%9c%a8.html"
+  },
+  {
+    "name": "人间城",
+    "singer": "王贰浪",
+    "album": "人间城",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528220511.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/08.人间城.jpg",
+    "url": "https://www.edzbe.com/song/%e4%ba%ba%e9%97%b4%e5%9f%8e-%e7%8e%8b%e8%b4%b0%e6%b5%aa.html"
+  },
+  {
+    "name": "月亮花",
+    "singer": "小舟与旅行者",
+    "album": "小舟作品集",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-16.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/16.小舟作品集.jpg",
+    "url": "https://www.edzbe.com/song/%e6%9c%88%e4%ba%ae%e8%8a%b1-%e5%b0%8f%e8%88%9f%e4%b8%8e%e6%97%85%e8%a1%8c%e8%80%85.html"
+  },
+  {
+    "name": "你的每一次呼吸",
+    "singer": "水木年华",
+    "album": "怒放之青春再见 插曲",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014062006584968319.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/06/109951163077579459.jpg",
+    "url": "https://www.edzbe.com/song/nidemeiyicihuxi.html"
+  },
+  {
+    "name": "Hallelujah",
+    "singer": "Jeff Buckley",
+    "album": "Grace",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032421440523736.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/5.Grace_.jpg",
+    "url": "https://www.edzbe.com/song/hallelujah-jeff-buckley.html"
+  },
+  {
+    "name": "Gespräch mit dem Wind",
+    "singer": "Vroudenspil",
+    "album": "Lunte gerochen",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014102219322045916.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/08.Lunte-gerochen.jpg",
+    "url": "https://www.edzbe.com/song/vroudenspil-gesprach-mit-dem-wind.html"
+  },
+  {
+    "name": "定西",
+    "singer": "李志",
+    "album": "1701",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014111823423135530.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/11/14157293421415729342.jpg",
+    "url": "https://www.edzbe.com/song/%e5%ae%9a%e8%a5%bf-%e6%9d%8e%e5%bf%97-%e9%80%89%e8%87%aa%e3%80%8a1701%e3%80%8b%e4%b8%93%e8%be%91-%e6%9d%8e%e5%bf%97%e6%9c%80%e6%96%b0%e4%b8%93%e8%be%91-lee-b.html"
+  },
+  {
+    "name": "我也可以是流浪诗人",
+    "singer": "好妹妹乐队",
+    "album": "我也可以是流浪诗人",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2015080420163893353.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2015/08/8374416881437471462.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e4%b9%9f%e5%8f%af%e4%bb%a5%e6%98%af%e6%b5%81%e6%b5%aa%e8%af%97%e4%ba%ba-%e5%a5%bd%e5%a6%b9%e5%a6%b9%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "我今仔日无想欲飞",
+    "singer": "谢铭佑",
+    "album": "台南",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014073121524396578.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/07/tainan-300x300.jpg",
+    "url": "https://www.edzbe.com/song/wojinzairiwuxiangyufei.html"
+  },
+  {
+    "name": "狗日的青春",
+    "singer": "贰佰",
+    "album": "Demo",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014101417403418290.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/erbai-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e7%8b%97%e6%97%a5%e7%9a%84%e9%9d%92%e6%98%a5-%e8%b4%b0%e4%bd%b0.html"
+  },
+  {
+    "name": "Part-Monster",
+    "singer": "Piano Magic",
+    "album": "Part Monster",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201403250155247148.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/14.Part-Monster.jpg",
+    "url": "https://www.edzbe.com/song/part-monster-piano-magic.html"
+  },
+  {
+    "name": "惦记这一些",
+    "singer": "小娟&山谷里的居民",
+    "album": "细说往事",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol06-09.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/细说往事.png",
+    "url": "https://www.edzbe.com/song/%e6%83%a6%e8%ae%b0%e8%bf%99%e4%b8%80%e4%ba%9b-%e5%b0%8f%e5%a8%9f%e5%b1%b1%e8%b0%b7%e9%87%8c%e7%9a%84%e5%b1%85%e6%b0%91.html"
+  },
+  {
+    "name": "我的窗外",
+    "singer": "小娟&山谷里的居民",
+    "album": "红布绿花朵",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol06-06.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/9.红布绿花朵.png",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e7%9a%84%e7%aa%97%e5%a4%96-%e5%b0%8f%e5%a8%9f%e5%b1%b1%e8%b0%b7%e9%87%8c%e7%9a%84%e5%b1%85%e6%b0%91-%e9%80%89%e8%87%aa%e3%80%8a%e7%ba%a2%e5%b8%83%e7%bb%bf%e8%8a%b1.html"
+  },
+  {
+    "name": "那只死在岸边的鱼",
+    "singer": "西野",
+    "album": "长安路往东",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1774110821_16450242_h.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2019/05/16274402721427440272-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e9%82%a3%e5%8f%aa%e6%ad%bb%e5%9c%a8%e5%b2%b8%e8%be%b9%e7%9a%84%e9%b1%bc-%e8%a5%bf%e9%87%8e.html"
+  },
+  {
+    "name": "The Letters",
+    "singer": "Leonard Cohen",
+    "album": "The Essential Leonard Cohen 3.0",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032502020798204.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/16.The-Essential-Leonard-Cohen-3.0-300x297.jpg",
+    "url": "https://www.edzbe.com/song/the-letters-leonard-cohen.html"
+  },
+  {
+    "name": "Позови меня тихо по имени",
+    "singer": "Lube",
+    "album": "Полустаночки",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/Vol.37.16.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/1676671468478261.jpg",
+    "url": "https://www.edzbe.com/song/lube-%d0%bf%d0%be%d0%b7%d0%be%d0%b2%d0%b8-%d0%bc%d0%b5%d0%bd%d1%8f-%d1%82%d0%b8%d1%85%d0%be-%d0%bf%d0%be-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b8.html"
+  },
+  {
+    "name": "Dying Inside",
+    "singer": "skylark",
+    "album": "Divine Gates Part 3-The last Gate",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014102614482040241.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/05.Divine-Gates-Part-3-The-last-Gate.jpg",
+    "url": "https://www.edzbe.com/song/dying-inside-skylark.html"
+  },
+  {
+    "name": "妈说",
+    "singer": "贰佰",
+    "album": "贰佰",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2015080304092037486.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2015/08/20170228234433-300x300.png",
+    "url": "https://www.edzbe.com/song/%e5%a6%88%e8%af%b4-%e8%b4%b0%e4%bd%b0.html"
+  },
+  {
+    "name": "我在太原和谁一起假装悲伤",
+    "singer": "贰佰",
+    "album": "贰佰的Demo",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/66ffcdb9ad2efc7febee92898eea7f6a.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/06.贰佰的Demo-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e5%9c%a8%e5%a4%aa%e5%8e%9f%e5%92%8c%e8%b0%81%e4%b8%80%e8%b5%b7%e5%81%87%e8%a3%85%e6%82%b2%e4%bc%a4-%e8%b4%b0%e4%bd%b0.html"
+  },
+  {
+    "name": "By My Side",
+    "singer": "David Choi",
+    "album": "By My Side",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226413.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/By-My-Side-300x300.jpg",
+    "url": "https://www.edzbe.com/song/by-my-side-david-choi.html"
+  },
+  {
+    "name": "Marras I",
+    "singer": "October Falls",
+    "album": "Marras",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol27-07.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/06/7.Marras.jpg",
+    "url": "https://www.edzbe.com/song/marras-i-october-falls.html"
+  },
+  {
+    "name": "夜长梦多",
+    "singer": "李上安",
+    "album": "秋千",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528215636.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/06.秋千.jpg",
+    "url": "https://www.edzbe.com/song/%e5%a4%9c%e9%95%bf%e6%a2%a6%e5%a4%9a-%e6%9d%8e%e4%b8%8a%e5%ae%89.html"
+  },
+  {
+    "name": "Märe Aus Wäldern Hallen",
+    "singer": "Gernotshagen",
+    "album": "Märe Aus Wälderen Hallen",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol27-12.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/06/12.Märe-Aus-Wälderen-Hallen-300x298.png",
+    "url": "https://www.edzbe.com/song/mare-aus-waldern-hallen-gernotshagen.html"
+  },
+  {
+    "name": "面会菜",
+    "singer": "林生祥",
+    "album": "大佛普拉斯",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6802.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/02-大佛普拉斯.jpg",
+    "url": "https://www.edzbe.com/song/%e9%9d%a2%e4%bc%9a%e8%8f%9c-%e6%9e%97%e7%94%9f%e7%a5%a5.html"
+  },
+  {
+    "name": "束河的阳光",
+    "singer": "江湖乐队",
+    "album": "江湖",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-08.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/8.江湖.png",
+    "url": "https://www.edzbe.com/song/%e6%9d%9f%e6%b2%b3%e7%9a%84%e9%98%b3%e5%85%89-%e6%b1%9f%e6%b9%96%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "Ride On",
+    "singer": "Christy Moore",
+    "album": "Ride On",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014041102383257685.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/04/01.Ride-On-300x300.jpg",
+    "url": "https://www.edzbe.com/song/ride-on-christy-moore.html"
+  },
+  {
+    "name": "没有理想的人不伤心",
+    "singer": "新裤子",
+    "album": "没有理想的人不伤心",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2016032605252348590.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/8-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e6%b2%a1%e6%9c%89%e7%90%86%e6%83%b3%e7%9a%84%e4%ba%ba%e4%b8%8d%e4%bc%a4%e5%bf%83-%e6%96%b0%e8%a3%a4%e5%ad%90.html"
+  },
+  {
+    "name": "行歌",
+    "singer": "陈鸿宇",
+    "album": "浓烟下的诗歌电台",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/陈鸿宇 - 行歌.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/2.jpg",
+    "url": "https://www.edzbe.com/song/%e8%a1%8c%e6%ad%8c-%e9%99%88%e9%b8%bf%e5%ae%87.html"
+  },
+  {
+    "name": "If I Have To Go",
+    "singer": "Tom Waits",
+    "album": "Orphans: Brawlers, Bawlers & Bastards",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226421.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/Orphans-Brawlers-Bawlers-Bastards-300x300.jpg",
+    "url": "https://www.edzbe.com/song/if-i-have-to-go-tom-waits.html"
+  },
+  {
+    "name": "Keep The Flame Alive",
+    "singer": "Revolution Renaissance",
+    "album": "New Era",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2015111806402740451.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2015/11/07.New-Era.jpg",
+    "url": "https://www.edzbe.com/song/keep-the-flame-alive-revolution-renaissance-%e9%80%89%e8%87%aa%e3%80%8anew-era%e3%80%8b%e4%b8%93%e8%be%91.html"
+  },
+  {
+    "name": "种树",
+    "singer": "马飞",
+    "album": "摩登天空7",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014071705552871812.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/07/5665151356500220.jpg",
+    "url": "https://www.edzbe.com/song/%e7%a7%8d%e6%a0%91-%e9%a9%ac%e9%a3%9e.html"
+  },
+  {
+    "name": "Untergang",
+    "singer": "Finsterforst",
+    "album": "… zum Tode hin",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/Finsterforst – Untergang.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/3277631241422852.jpg",
+    "url": "https://www.edzbe.com/song/untergang-finsterforst.html"
+  },
+  {
+    "name": "Riverside",
+    "singer": "Agnes Obel",
+    "album": "Philharmonics",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226405.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/Philharmonics-300x300.jpg",
+    "url": "https://www.edzbe.com/song/riverside-agnes-obel.html"
+  },
+  {
+    "name": "我在丽江遇见你",
+    "singer": "天迹乐队",
+    "album": "我在丽江遇见你",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-13.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/13.我在丽江遇见你.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e5%9c%a8%e4%b8%bd%e6%b1%9f%e9%81%87%e8%a7%81%e4%bd%a0-%e5%a4%a9%e8%bf%b9%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "夕阳下的大石桥（Cover 杨兆鹏）",
+    "singer": "晴天",
+    "album": "丽江的晴天",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-11.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/11.丽江的晴天.jpg",
+    "url": "https://www.edzbe.com/song/%e5%a4%95%e9%98%b3%e4%b8%8b%e7%9a%84%e5%a4%a7%e7%9f%b3%e6%a1%a5%ef%bc%88cover-%e6%9d%a8%e5%85%86%e9%b9%8f%ef%bc%89-%e6%99%b4%e5%a4%a9.html"
+  },
+  {
+    "name": "青春再见",
+    "singer": "水木年华/老狼/李健/叶世荣",
+    "album": "怒放之青春再见 插曲",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014062007181048939.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/06/5139d8e9jw1e6cwn7l6jvj208c08cjry.jpg",
+    "url": "https://www.edzbe.com/song/qingchunzaijian.html"
+  },
+  {
+    "name": "Amit ad az ég (Álmos búcsúja) ",
+    "singer": "Dalriada",
+    "album": "Áldás",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol18-08.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/8.Áldás.jpg",
+    "url": "https://www.edzbe.com/song/amit-ad-az-eg-almos-bucsuja-dalriada.html"
+  },
+  {
+    "name": "种树",
+    "singer": "林生祥",
+    "album": "总经销片馆",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6813.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/13-总经销片馆.png",
+    "url": "https://www.edzbe.com/song/%e7%a7%8d%e6%a0%91-%e6%9e%97%e7%94%9f%e7%a5%a5.html"
+  },
+  {
+    "name": "Pill Hill Serenade",
+    "singer": "Mark Lanegan",
+    "album": "Field Songs",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032503093546580.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/31.field-songs.jpg",
+    "url": "https://www.edzbe.com/song/pill-hill-serenade-mark-lanegan.html"
+  },
+  {
+    "name": "All the Pretty Little Horses",
+    "singer": "Current 93",
+    "album": "The Inmost Light",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol27-04.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/06/4.All-The-Pretty-Little-Horses-The-Inmost-Light.jpg",
+    "url": "https://www.edzbe.com/song/all-the-pretty-little-horses-current-93.html"
+  },
+  {
+    "name": "暮立",
+    "singer": "留声玩具",
+    "album": "时光与念想",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528230410.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/14.时光与念想.jpg",
+    "url": "https://www.edzbe.com/song/%e6%9a%ae%e7%ab%8b-%e7%95%99%e5%a3%b0%e7%8e%a9%e5%85%b7.html"
+  },
+  {
+    "name": "Another Love",
+    "singer": "Tom Odell",
+    "album": "Songs from Another Love",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201709226420.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/09/Songs-from-Another-Love-300x300.jpg",
+    "url": "https://www.edzbe.com/song/another-love-tom-odell.html"
+  },
+  {
+    "name": "Erdei tánc",
+    "singer": "Woodland Choir",
+    "album": "For You",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201410222001238144.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/17.For-You.jpg",
+    "url": "https://www.edzbe.com/song/erdei-tanc-woodland-choir.html"
+  },
+  {
+    "name": "温暖",
+    "singer": "许巍",
+    "album": "那一年",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-04.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/4.那一年.jpg",
+    "url": "https://www.edzbe.com/song/%e6%b8%a9%e6%9a%96-%e8%ae%b8%e5%b7%8d.html"
+  },
+  {
+    "name": "可能否",
+    "singer": "木小雅",
+    "album": "可能否",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6804.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/04-可能否.jpg",
+    "url": "https://www.edzbe.com/song/%e5%8f%af%e8%83%bd%e5%90%a6-%e6%9c%a8%e5%b0%8f%e9%9b%85.html"
+  },
+  {
+    "name": "Frei Zu Sein",
+    "singer": "In Extremo",
+    "album": "Sängerkrieg",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032823401364935.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/2539431375086734.jpg",
+    "url": "https://www.edzbe.com/song/frei-zu-sein-in-extremo.html"
+  },
+  {
+    "name": "平淡日子里的刺",
+    "singer": "宋冬野",
+    "album": "电影《我想和你好好的》主题曲",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1772231770_0_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/14020327871567.jpg",
+    "url": "https://www.edzbe.com/song/%e5%b9%b3%e6%b7%a1%e6%97%a5%e5%ad%90%e9%87%8c%e7%9a%84%e5%88%ba-%e5%ae%8b%e5%86%ac%e9%87%8e.html"
+  },
+  {
+    "name": "Mercy",
+    "singer": "Mojave 3",
+    "album": "Ask Me Tomorrow",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032421364182256.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/4.Ask-Me-Tomorrow.jpg",
+    "url": "https://www.edzbe.com/song/mercy-mojave-3.html"
+  },
+  {
+    "name": "Danse",
+    "singer": "Gae Bolg And The Church Of Fand",
+    "album": "La Ballade De L’Ankou",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014053002471596386.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/05/4322301300872741.jpg",
+    "url": "https://www.edzbe.com/song/gae-bolg-and-the-church-of-fand-danse.html"
+  },
+  {
+    "name": "再见丽江",
+    "singer": "汤潮",
+    "album": "再见丽江 行者",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-29.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/30.再见丽江-行者.png",
+    "url": "https://www.edzbe.com/song/%e5%86%8d%e8%a7%81%e4%b8%bd%e6%b1%9f-%e6%b1%a4%e6%bd%ae.html"
+  },
+  {
+    "name": "乌兰巴托的夜",
+    "singer": "江湖乐队",
+    "album": "江湖",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-19.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/8.江湖.png",
+    "url": "https://www.edzbe.com/song/%e4%b9%8c%e5%85%b0%e5%b7%b4%e6%89%98%e7%9a%84%e5%a4%9c-%e6%b1%9f%e6%b9%96%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "在路上",
+    "singer": "语乐队",
+    "album": "在路上",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1774307565_16691712_h.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2019/05/10224469771431602713-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e5%9c%a8%e8%b7%af%e4%b8%8a-%e8%af%ad%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "Herr Mannelig",
+    "singer": "Cromdale",
+    "album": "Forgotten Tales",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014053002400979182.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/05/01.Forgotten-Tales.jpg",
+    "url": "https://www.edzbe.com/song/cromdale-herr-mannelig.html"
+  },
+  {
+    "name": "理想三旬",
+    "singer": "陈鸿宇",
+    "album": "众乐纪壹 迷城行歌",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2015080303552653700.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/03/2.jpg",
+    "url": "https://www.edzbe.com/song/%e7%90%86%e6%83%b3%e4%b8%89%e6%97%ac-%e9%99%88%e9%b8%bf%e5%ae%87.html"
+  },
+  {
+    "name": "镜中",
+    "singer": "念乐队",
+    "album": "DEMO",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2017022501535554644.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/02/demo-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e9%95%9c%e4%b8%ad-%e5%bf%b5%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "Setlon",
+    "singer": "Eluveitie",
+    "album": "Everything Remains [As It Never Was]",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6817.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/17-Everything-Remains-As-It-Never-Was.jpg",
+    "url": "https://www.edzbe.com/song/setlon-eluveitie.html"
+  },
+  {
+    "name": "梵高先生忧伤地凝望着白兰鸽飞过故乡的安和桥",
+    "singer": "孟大宝",
+    "album": "同名专辑",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2017-01-2969.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2018/01/2017-01-2928-300x300.jpg",
+    "url": "https://www.edzbe.com/song/%e6%a2%b5%e9%ab%98%e5%85%88%e7%94%9f%e5%bf%a7%e4%bc%a4%e5%9c%b0%e5%87%9d%e6%9c%9b%e7%9d%80%e7%99%bd%e5%85%b0%e9%b8%bd%e9%a3%9e%e8%bf%87%e6%95%85%e4%b9%a1%e7%9a%84%e5%ae%89%e5%92%8c%e6%a1%a5.html"
+  },
+  {
+    "name": "我们不由自主的亲吻对方",
+    "singer": "低苦艾",
+    "album": "我们不由自主的亲吻对方",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014101417483175291.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/3160461232524557-294x300.jpg",
+    "url": "https://www.edzbe.com/song/%e6%88%91%e4%bb%ac%e4%b8%8d%e7%94%b1%e8%87%aa%e4%b8%bb%e7%9a%84%e4%ba%b2%e5%90%bb%e5%af%b9%e6%96%b9-%e4%bd%8e%e8%8b%a6%e8%89%be.html"
+  },
+  {
+    "name": "阿楚姑娘",
+    "singer": "梁凡FANKIE",
+    "album": "阿楚姑娘",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/192ba44f0ebf67bb26caf4d516c721bb.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/21.阿楚姑娘.jpg",
+    "url": "https://www.edzbe.com/song/%e9%98%bf%e6%a5%9a%e5%a7%91%e5%a8%98-%e6%a2%81%e5%87%a1fankie.html"
+  },
+  {
+    "name": "人生最大的意义",
+    "singer": "安妮朵拉",
+    "album": "安妮朵拉",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014101418020648955.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/10/3589961260512889.jpg",
+    "url": "https://www.edzbe.com/song/%e4%ba%ba%e7%94%9f%e6%9c%80%e5%a4%a7%e7%9a%84%e6%84%8f%e4%b9%89-%e5%ae%89%e5%a6%ae%e6%9c%b5%e6%8b%89.html"
+  },
+  {
+    "name": "逝年",
+    "singer": "夏小虎",
+    "album": "逝年",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/cea99b777f9df4d8f7a8870fc92b7a0e.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/09.逝年.jpg",
+    "url": "https://www.edzbe.com/song/%e9%80%9d%e5%b9%b4-%e5%a4%8f%e5%b0%8f%e8%99%8e.html"
+  },
+  {
+    "name": "Safe and Sound",
+    "singer": "Azure Ray",
+    "album": "Azure Ray",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol6812.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2022/10/12-Azure-Ray.jpg",
+    "url": "https://www.edzbe.com/song/safe-and-sound-azure-ray.html"
+  },
+  {
+    "name": "面朝大海 春暖花开",
+    "singer": "蒋山",
+    "album": "蒋山作品集",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/1773984195_16315458_l.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2016/09/16.蒋山作品集.png",
+    "url": "https://www.edzbe.com/song/%e9%9d%a2%e6%9c%9d%e5%a4%a7%e6%b5%b7-%e6%98%a5%e6%9a%96%e8%8a%b1%e5%bc%80-%e8%92%8b%e5%b1%b1.html"
+  },
+  {
+    "name": "再谈一次恋爱吧",
+    "singer": "江湖乐队",
+    "album": "江湖",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/vol10-10.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2023/07/8.江湖.png",
+    "url": "https://www.edzbe.com/song/%e5%86%8d%e8%b0%88%e4%b8%80%e6%ac%a1%e6%81%8b%e7%88%b1%e5%90%a7-%e6%b1%9f%e6%b9%96%e4%b9%90%e9%98%9f.html"
+  },
+  {
+    "name": "Silver Crow",
+    "singer": "Woodland",
+    "album": "Twilight",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/201404110326286885.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/04/14.Twilight-300x300.jpg",
+    "url": "https://www.edzbe.com/song/woodland-silver-crow.html"
+  },
+  {
+    "name": "Eismahd",
+    "singer": "Sonne Hagal",
+    "album": "Helfahrt",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014031301381762792.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/02/25.Helfahrt-300x300.jpg",
+    "url": "https://www.edzbe.com/song/eismahd-sonne-hagal.html"
+  },
+  {
+    "name": "Quiet Inside",
+    "singer": "Andy Tubman",
+    "album": "Quiet Inside",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2014032421260928820.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2014/03/2.Quiet-Inside.jpg",
+    "url": "https://www.edzbe.com/song/quiet-inside-andy-tubman.html"
+  },
+  {
+    "name": "记昨日书",
+    "singer": "伏仪",
+    "album": "硬骨见鹿集",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/20240528225228.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2024/05/09.硬骨见鹿集.jpg",
+    "url": "https://www.edzbe.com/song/%e8%ae%b0%e6%98%a8%e6%97%a5%e4%b9%a6-%e4%bc%8f%e4%bb%aa.html"
+  },
+  {
+    "name": "Die reise",
+    "singer": "Triskilian",
+    "album": "Birkenhain",
+    "path": "https://edzbecom.oss-cn-hangzhou.aliyuncs.com/Music/2017030413202421187.mp3",
+    "image": "https://www.edzbe.com/wp-content/uploads/2017/03/11.Birkenhain.jpg",
+    "url": "https://www.edzbe.com/song/die-reise-triskilian.html"
+  }
+]
