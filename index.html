@@ -2,20 +2,20 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>电台播放测试页</title>
+    <title>电台排错页</title>
     <style>
         body { background: #121212; color: #fff; font-family: sans-serif; text-align: center; padding-top: 40px; }
-        .player-box { max-width: 420px; margin: auto; background: #1e1e1e; padding: 25px; border-radius: 12px; }
-        #song-title { font-size: 18px; margin: 20px 0; color: #1db954; font-weight: bold; }
-        audio { width: 100%; margin-top: 15px; }
+        .player-box { max-width: 420px; margin: auto; background: #1e1e1e; padding: 25px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.6); }
+        h3 { margin-top: 0; color: #b3b3b3; font-size: 14px; }
+        #status-msg { font-size: 16px; margin: 20px 0; color: #ff5555; word-break: break-all; }
+        audio { width: 100%; margin-top: 15px; outline: none; }
     </style>
 </head>
 <body>
 
 <div class="player-box">
-    <h3 id="playlist-name">正在加载...</h3>
-    <div id="song-title">初始化中</div>
-    <!-- 加上 playsinline 属性，确保手机和电脑上都能正常交互 -->
+    <h3 id="playlist-name">正在初始化...</h3>
+    <div id="status-msg">准备连接</div>
     <audio id="audio-player" controls playsinline></audio>
 </div>
 
@@ -24,41 +24,48 @@
     const repoName = "NIFFM";
 
     const audioPlayer = document.getElementById('audio-player');
-    const titleElement = document.getElementById('song-title');
+    const statusMsg = document.getElementById('status-msg');
     const nameElement = document.getElementById('playlist-name');
 
-    async function initPlayer() {
+    async function init() {
         try {
-            // 为了排除代理对大音频文件的卡死影响，我们先用一个安全的直链测试，或者直接看能不能成功读到歌单
+            nameElement.innerText = "正在读取 rock.json 歌单...";
             let jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/rock.json`;
-            nameElement.innerText = "正在读取 rock.json...";
             
-            let playlistRes = await fetch(jsonUrl);
-            let playlist = await playlistRes.json();
+            let res = await fetch(jsonUrl);
+            if (!res.ok) throw new Error("无法获取 rock.json 文件 (HTTP " + res.status + ")");
+            
+            let playlist = await res.json();
+            if (!Array.isArray(playlist) || playlist.length === 0) throw new Error("rock.json 内容为空");
 
-            if (!Array.isArray(playlist) || playlist.length === 0) {
-                titleElement.innerText = "歌单为空";
-                return;
-            }
+            nameElement.innerText = `歌单加载成功 (共 ${playlist.length} 首)`;
+            
+            let song = playlist[0];
+            statusMsg.style.color = "#1db954";
+            statusMsg.innerText = "正在加载第一首歌: " + (song.name || song.title);
 
-            nameElement.innerText = `当前歌单: rock.json (共 ${playlist.length} 首)`;
-            
-            // 默认加载第一首（先不加代理，看看原生控件能不能点开，或者换用代理）
-            const song = playlist[0];
-            titleElement.innerText = song.name || song.title;
-            
-            // 测试：如果 corsproxy 导致完全点不动，可以暂时去掉前缀看看控件能不能点（虽然会报跨域，但控件本身应该能点）
-            audioPlayer.src = "https://corsproxy.io/?" + encodeURIComponent(song.url);
-            
-            console.log("音频地址已加载:", audioPlayer.src);
+            // 加上代理测试
+            let proxyUrl = "https://corsproxy.io/?";
+            audioPlayer.src = proxyUrl + encodeURIComponent(song.url);
 
-        } catch (error) {
-            console.error("加载出错:", error);
-            titleElement.innerText = "加载失败，请按 F12 查看控制台";
+            // 监听音频加载状态
+            audioPlayer.oncanplay = () => {
+                statusMsg.style.color = "#1db954";
+                statusMsg.innerText = "就绪: " + (song.name || song.title);
+            };
+
+            audioPlayer.onerror = () => {
+                statusMsg.style.color = "#ff5555";
+                statusMsg.innerText = "音频加载失败！代理服务器无法读取该阿里云外链或链接已失效。";
+            };
+
+        } catch (err) {
+            statusMsg.style.color = "#ff5555";
+            statusMsg.innerText = "发生错误: " + err.message;
         }
     }
 
-    initPlayer();
+    init();
 </script>
 
 </body>
