@@ -2,27 +2,117 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>电台嵌入页</title>
+    <title>电台随机音乐播放器</title>
     <style>
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            width: 100%; 
-            height: 100%; 
+        body { 
             background: #121212; 
-            overflow: hidden; 
+            color: #fff; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            text-align: center; 
+            padding-top: 40px; 
         }
-        iframe { 
-            width: 100%; 
-            height: 100%; 
-            border: none; 
+        .player-box { 
+            max-width: 420px; 
+            margin: auto; 
+            background: #1e1e1e; 
+            padding: 25px; 
+            border-radius: 12px; 
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6); 
         }
+        h3 { margin-top: 0; color: #b3b3b3; font-size: 14px; }
+        #song-title { 
+            font-size: 18px; 
+            margin: 20px 0; 
+            color: #1db954; 
+            font-weight: bold;
+            word-break: break-all;
+        }
+        audio { width: 100%; margin-top: 15px; outline: none; }
     </style>
 </head>
 <body>
 
-    <!-- 直接把对方的电台网页嵌入进来 -->
-    <iframe src="https://www.edzbe.com/fm/folk"></iframe>
+<div class="player-box">
+    <h3 id="playlist-name">正在连接电台歌单...</h3>
+    <div id="song-title">加载中...</div>
+    <audio id="audio-player" controls></audio>
+</div>
+
+<script>
+    const repoOwner = "sylva98";
+    const repoName = "NIFFM";
+
+    const audioPlayer = document.getElementById('audio-player');
+    const titleElement = document.getElementById('song-title');
+    const nameElement = document.getElementById('playlist-name');
+
+    async function initPlayer() {
+        try {
+            const urlParams = new URLSearchParams(window.location.search);
+            let targetFile = urlParams.get('file');
+
+            if (!targetFile) {
+                let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/`);
+                let files = await res.json();
+                let jsonFiles = files.filter(f => f.name.endsWith('.json') && f.name !== 'stations.json');
+                
+                if (jsonFiles.length === 0) {
+                    titleElement.innerText = "仓库中未找到任何 JSON 歌单";
+                    return;
+                }
+                targetFile = jsonFiles[Math.floor(Math.random() * jsonFiles.length)].name;
+            }
+
+            nameElement.innerText = `当前歌单: ${targetFile}`;
+
+            let jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${targetFile}`;
+            let playlistRes = await fetch(jsonUrl);
+            let playlist = await playlistRes.json();
+
+            if (!Array.isArray(playlist) || playlist.length === 0) {
+                titleElement.innerText = "歌单数据为空";
+                return;
+            }
+
+            // 随机洗牌
+            for (let i = playlist.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
+            }
+
+            let currentIndex = 0;
+
+            function loadCurrentSong() {
+                if (currentIndex >= playlist.length) {
+                    playlist.sort(() => Math.random() - 0.5);
+                    currentIndex = 0;
+                }
+                const song = playlist[currentIndex];
+                
+                // 核心修改：通过公共 CORS 代理包装音乐链接，完美绕过跨域限制
+                const proxyUrl = "https://corsproxy.io/?";
+                audioPlayer.src = proxyUrl + encodeURIComponent(song.url);
+                
+                titleElement.innerText = `${song.name || song.title}`;
+            }
+
+            // 自动随机循环下一首
+            audioPlayer.onended = function() {
+                currentIndex++;
+                loadCurrentSong();
+                audioPlayer.play();
+            };
+
+            loadCurrentSong();
+
+        } catch (error) {
+            console.error("加载失败:", error);
+            titleElement.innerText = "歌单加载失败，请检查";
+        }
+    }
+
+    initPlayer();
+</script>
 
 </body>
 </html>
