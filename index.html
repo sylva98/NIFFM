@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>电台动态随机音乐播放器</title>
+    <title>电台随机音乐播放器</title>
     <style>
         body { 
             background: #121212; 
@@ -34,12 +34,12 @@
 
 <div class="player-box">
     <h3 id="playlist-name">正在连接电台歌单...</h3>
-    <div id="song-title">初始化中...</div>
-    <audio id="audio-player" controls autoplay></audio>
+    <div id="song-title">加载中...</div>
+    <!-- 加上 controls 属性，让原生的播放、暂停、进度条控件直接显示出来 -->
+    <audio id="audio-player" controls></audio>
 </div>
 
 <script>
-    // 配置你的 GitHub 仓库信息
     const repoOwner = "sylva98";
     const repoName = "NIFFM";
 
@@ -49,39 +49,33 @@
 
     async function initPlayer() {
         try {
-            // 1. 获取 URL 中的参数，看指定了哪个 JSON 文件（例如 ?file=rock.json）
             const urlParams = new URLSearchParams(window.location.search);
             let targetFile = urlParams.get('file');
 
-            // 如果没有指定具体文件，通过 GitHub API 自动抓取仓库里所有的 json 文件
             if (!targetFile) {
                 let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/`);
                 let files = await res.json();
-                
-                // 筛选出所有 .json 文件（你可以把不需要的配置文件排除在外，比如 stations.json）
                 let jsonFiles = files.filter(f => f.name.endsWith('.json') && f.name !== 'stations.json');
                 
                 if (jsonFiles.length === 0) {
                     titleElement.innerText = "仓库中未找到任何 JSON 歌单";
                     return;
                 }
-                // 如果没传参数，随机选一个
                 targetFile = jsonFiles[Math.floor(Math.random() * jsonFiles.length)].name;
             }
 
-            nameElement.innerText = `当前播放歌单: ${targetFile}`;
+            nameElement.innerText = `当前歌单: ${targetFile}`;
 
-            // 2. 加载对应的 JSON 歌单内容
             let jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${targetFile}`;
             let playlistRes = await fetch(jsonUrl);
             let playlist = await playlistRes.json();
 
             if (!Array.isArray(playlist) || playlist.length === 0) {
-                titleElement.innerText = "歌单数据为空或格式不正确";
+                titleElement.innerText = "歌单数据为空";
                 return;
             }
 
-            // 3. 【核心】每次页面加载（即电台每次点击链接）时，对歌单进行随机洗牌（Fisher-Yates 随机打乱）
+            // 随机洗牌
             for (let i = playlist.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
@@ -89,36 +83,29 @@
 
             let currentIndex = 0;
 
-            // 4. 播放控制函数
-            function playCurrentSong() {
+            function loadCurrentSong() {
                 if (currentIndex >= playlist.length) {
-                    // 播完整轮后再次打乱，实现无限随机循环
                     playlist.sort(() => Math.random() - 0.5);
                     currentIndex = 0;
                 }
                 const song = playlist[currentIndex];
                 audioPlayer.src = song.url;
-                titleElement.innerText = `正在播放: ${song.name || song.title}`;
-                
-                // 尝试自动播放
-                audioPlayer.play().catch(error => {
-                    console.log("浏览器拦截了自动播放，需用户手动点击:", error);
-                    titleElement.innerText += " (请点击播放按钮)";
-                });
+                titleElement.innerText = `${song.name || song.title}`;
             }
 
-            // 监听当前歌曲结束事件，自动切下一首
+            // 当一首歌播完时，自动切到下一首随机歌曲并继续播放
             audioPlayer.onended = function() {
                 currentIndex++;
-                playCurrentSong();
+                loadCurrentSong();
+                audioPlayer.play();
             };
 
-            // 开始播放第一首
-            playCurrentSong();
+            // 预加载第一首歌，但不主动调用 .play()，完全由你点击控制
+            loadCurrentSong();
 
         } catch (error) {
             console.error("加载失败:", error);
-            titleElement.innerText = "歌单加载失败，请检查网络或文件名";
+            titleElement.innerText = "歌单加载失败，请检查";
         }
     }
 
