@@ -2,40 +2,21 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>电台随机音乐播放器</title>
+    <title>电台播放测试页</title>
     <style>
-        body { 
-            background: #121212; 
-            color: #fff; 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            text-align: center; 
-            padding-top: 40px; 
-        }
-        .player-box { 
-            max-width: 420px; 
-            margin: auto; 
-            background: #1e1e1e; 
-            padding: 25px; 
-            border-radius: 12px; 
-            box-shadow: 0 8px 24px rgba(0,0,0,0.6); 
-        }
-        h3 { margin-top: 0; color: #b3b3b3; font-size: 14px; }
-        #song-title { 
-            font-size: 18px; 
-            margin: 20px 0; 
-            color: #1db954; 
-            font-weight: bold;
-            word-break: break-all;
-        }
-        audio { width: 100%; margin-top: 15px; outline: none; }
+        body { background: #121212; color: #fff; font-family: sans-serif; text-align: center; padding-top: 40px; }
+        .player-box { max-width: 420px; margin: auto; background: #1e1e1e; padding: 25px; border-radius: 12px; }
+        #song-title { font-size: 18px; margin: 20px 0; color: #1db954; font-weight: bold; }
+        audio { width: 100%; margin-top: 15px; }
     </style>
 </head>
 <body>
 
 <div class="player-box">
-    <h3 id="playlist-name">正在连接电台歌单...</h3>
-    <div id="song-title">加载中...</div>
-    <audio id="audio-player" controls></audio>
+    <h3 id="playlist-name">正在加载...</h3>
+    <div id="song-title">初始化中</div>
+    <!-- 加上 playsinline 属性，确保手机和电脑上都能正常交互 -->
+    <audio id="audio-player" controls playsinline></audio>
 </div>
 
 <script>
@@ -48,66 +29,32 @@
 
     async function initPlayer() {
         try {
-            const urlParams = new URLSearchParams(window.location.search);
-            let targetFile = urlParams.get('file');
-
-            if (!targetFile) {
-                let res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contents/`);
-                let files = await res.json();
-                let jsonFiles = files.filter(f => f.name.endsWith('.json') && f.name !== 'stations.json');
-                
-                if (jsonFiles.length === 0) {
-                    titleElement.innerText = "仓库中未找到任何 JSON 歌单";
-                    return;
-                }
-                targetFile = jsonFiles[Math.floor(Math.random() * jsonFiles.length)].name;
-            }
-
-            nameElement.innerText = `当前歌单: ${targetFile}`;
-
-            let jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${targetFile}`;
+            // 为了排除代理对大音频文件的卡死影响，我们先用一个安全的直链测试，或者直接看能不能成功读到歌单
+            let jsonUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/rock.json`;
+            nameElement.innerText = "正在读取 rock.json...";
+            
             let playlistRes = await fetch(jsonUrl);
             let playlist = await playlistRes.json();
 
             if (!Array.isArray(playlist) || playlist.length === 0) {
-                titleElement.innerText = "歌单数据为空";
+                titleElement.innerText = "歌单为空";
                 return;
             }
 
-            // 随机洗牌
-            for (let i = playlist.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [playlist[i], playlist[j]] = [playlist[j], playlist[i]];
-            }
-
-            let currentIndex = 0;
-
-            function loadCurrentSong() {
-                if (currentIndex >= playlist.length) {
-                    playlist.sort(() => Math.random() - 0.5);
-                    currentIndex = 0;
-                }
-                const song = playlist[currentIndex];
-                
-                // 核心修改：通过公共 CORS 代理包装音乐链接，完美绕过跨域限制
-                const proxyUrl = "https://corsproxy.io/?";
-                audioPlayer.src = proxyUrl + encodeURIComponent(song.url);
-                
-                titleElement.innerText = `${song.name || song.title}`;
-            }
-
-            // 自动随机循环下一首
-            audioPlayer.onended = function() {
-                currentIndex++;
-                loadCurrentSong();
-                audioPlayer.play();
-            };
-
-            loadCurrentSong();
+            nameElement.innerText = `当前歌单: rock.json (共 ${playlist.length} 首)`;
+            
+            // 默认加载第一首（先不加代理，看看原生控件能不能点开，或者换用代理）
+            const song = playlist[0];
+            titleElement.innerText = song.name || song.title;
+            
+            // 测试：如果 corsproxy 导致完全点不动，可以暂时去掉前缀看看控件能不能点（虽然会报跨域，但控件本身应该能点）
+            audioPlayer.src = "https://corsproxy.io/?" + encodeURIComponent(song.url);
+            
+            console.log("音频地址已加载:", audioPlayer.src);
 
         } catch (error) {
-            console.error("加载失败:", error);
-            titleElement.innerText = "歌单加载失败，请检查";
+            console.error("加载出错:", error);
+            titleElement.innerText = "加载失败，请按 F12 查看控制台";
         }
     }
 
